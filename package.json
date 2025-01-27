@@ -1,0 +1,46 @@
+{
+    "name": "create-figdu",
+    "version": "1.0.0",
+    "description": "A CLI tool to scaffold Figma plugins with React and Chakra UI.",
+    "bin": {
+        "create-figdu": "./bin/cli.js"
+    },
+    "scripts": {
+        "test": "echo 'No tests yet!'",
+        "lint": "eslint .",
+        "prepare": "husky install"
+    },
+    "keywords": [
+        "figma",
+        "plugin",
+        "preact",
+        "chakra-ui",
+        "cli",
+        "scaffold"
+    ],
+    "author": "Rafi Haidari <hello.rafihaidari@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@chakra-ui/react": "^3.5.1",
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.0",
+        "chalk": "^4.1.2",
+        "enquirer": "^2.3.6",
+        "framer-motion": "^12.0.5",
+        "fs-extra": "^11.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.0.0",
+        "husky": "^8.0.0",
+        "prettier": "^2.0.0"
+    },
+    "files": [
+        "bin/",
+        "templates/",
+        "README.md"
+    ],
+    "engines": {
+        "node": ">=16.0.0",
+        "npm": ">=7.0.0"
+    }
+}
