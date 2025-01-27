@@ -1,6 +1,6 @@
 # FigDU
 
-FigDU is a **battery-packed Figma plugin development toolkit** made by designers and developers for designers and developers. Build your Figma plugins with ease and stop worrying about configuration files and the odd peculiarities of building for Figma.
+FigDU is your **all-in-one toolkit for crafting powerful Figma plugins** made by developers for developers. Build your Figma plugins with ease and stop worrying about configuration files and the odd peculiarities of building for Figma.
 
 With FigDU, you can focus on creating amazing plugins for Figma while we handle the boilerplate, build process, and tooling. Whether you're a seasoned developer or just getting started, FigDU makes Figma plugin development a breeze.
 
