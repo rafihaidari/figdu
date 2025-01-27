@@ -104,7 +104,7 @@ FigDU is open-source and licensed under the MIT License. See the [LICENSE](LICEN
 
 ## Acknowledgments
 
-- Built with ❤️ in Germany and Seweden.
+- Built with ❤️ in Germany and Switzerland.
 
 ---
 
