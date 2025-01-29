@@ -1,6 +1,6 @@
 {
     "name": "create-figdu",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "A CLI tool to scaffold Figma plugins with React and Chakra UI.",
     "bin": {
         "create-figdu": "./bin/cli.js"
@@ -25,6 +25,7 @@
         "@emotion/react": "^11.14.0",
         "@emotion/styled": "^11.14.0",
         "chalk": "^4.1.2",
+        "cross-spawn": "^7.0.6",
         "enquirer": "^2.3.6",
         "framer-motion": "^12.0.5",
         "fs-extra": "^11.0.0"
