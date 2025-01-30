@@ -1,8 +1,15 @@
-# FigDU
+# FigDU - Figma Developer Utility
 
-FigDU is your **all-in-one toolkit for crafting powerful Figma plugins** made by developers for developers. Build your Figma plugins with ease and stop worrying about configuration files and the odd peculiarities of building for Figma.
+FigDU (**Figma Developer Utility**) is your **all-in-one toolkit for crafting powerful Figma plugins** made by developers for developers. Build your Figma plugins with ease and stop worrying about configuration files and the odd peculiarities of building for Figma.
 
 With FigDU, you can focus on creating amazing plugins for Figma while we handle the boilerplate, build process, and tooling. Whether you're a seasoned developer or just getting started, FigDU makes Figma plugin development a breeze.
+
+---
+
+## Repository & Website
+
+- **GitHub Repository**: [https://github.com/rafihaidari/figdu](https://github.com/rafihaidari/figdu)
+- **Website**: [https://figdu.com](https://figdu.com)
 
 ---
 
@@ -50,14 +57,13 @@ This will set up a new FigDU project in your current directory with all the nece
    cd your-figdu-project
    ```
 
-3. **Build by running:**:
+3. **Build by running:**
 
    ```bash
    npm run build
    ```
 
 4. **Open Figma**:
-
    - Go to the **Plugins** menu in Figma.
    - Select **Development** > **Import plugin from manifest**.
    - Choose the `manifest.json` file in your project directory.
@@ -102,10 +108,9 @@ FigDU is open-source and licensed under the MIT License. See the [LICENSE](LICEN
 
 ---
 
-
 ## Acknowledgments
 
-- Built with ❤️ in Germany and Switzerland.
+- Built with ❤️ in Germany.
 
 ---
 
