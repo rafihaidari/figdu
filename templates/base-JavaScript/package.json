@@ -5,10 +5,9 @@
     "author": "{{author}}",
     "main": "src/main.jsx",
     "scripts": {
-        "dev": "vite",
         "build": "vite build && npm run build:main",
         "build:main": "esbuild src/library/code.js --bundle --outfile=dist/code.js",
-        "preview": "vite preview"
+        "watch": "nodemon --watch src --ext js,jsx --exec \"npm run build\""
     },
     "dependencies": {
         "@chakra-ui/react": "^3.5.1",
@@ -20,10 +19,11 @@
         "react-icons": "^5.4.0"
     },
     "devDependencies": {
+        "esbuild": "^0.20.2",
+        "nodemon": "^3.1.9",
         "prettier": "^3.4.2",
         "vite": "^6.0.5",
         "vite-plugin-singlefile": "^2.1.0",
-        "esbuild": "^0.20.2",
         "vite-plugin-static-copy": "^2.2.0"
     }
 }

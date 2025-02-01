@@ -5,10 +5,9 @@
     "author": "{{author}}",
     "type": "module",
     "scripts": {
-        "dev": "vite",
         "build": "tsc -b && vite build && npm run build:main",
         "build:main": "esbuild src/library/code.ts --bundle --outfile=dist/code.js",
-        "preview": "vite preview"
+        "watch": "nodemon --watch src --ext ts,tsx --exec \"npm run build\""
     },
     "dependencies": {
         "@chakra-ui/react": "^3.5.1",
@@ -23,6 +22,7 @@
         "@figma/plugin-typings": "^1.107.0-beta.1",
         "@types/react": "^19.0.8",
         "@types/react-dom": "^19.0.3",
+        "nodemon": "^3.1.9",
         "prettier": "^3.4.2",
         "typescript": "~5.6.2",
         "vite": "^6.0.5",
