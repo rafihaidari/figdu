@@ -2,13 +2,13 @@
     "name": "{{pluginName}}",
     "id": "{{pluginId}}",
     "api": "1.0.0",
-    "main": "dist/code.js",
+    "main": "code.js",
     "capabilities": [],
     "enableProposedApi": false,
     "editorType": [
         "figma"
     ],
-    "ui": "dist/index.html",
+    "ui": "index.html",
     "networkAccess": {
         "allowedDomains": [
             "none"
