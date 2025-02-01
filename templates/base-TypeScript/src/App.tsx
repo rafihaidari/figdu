@@ -1,6 +1,5 @@
 import { Button, Stack, Heading, Text, Highlight, HStack, Separator } from "@chakra-ui/react";
 import { Provider } from "@/components/ui/provider";
-import { RiArrowRightLine } from "react-icons/ri";
 import { Avatar } from "./components/ui/avatar";
 import FigDuLogo from "./assets/images/FigDu-Logo.png";
 
@@ -58,7 +57,7 @@ export function App() {
                     variant="subtle"
                     onClick={handleCreateTextbox}
                 >
-                    Create Hello World <RiArrowRightLine />
+                    Create Hello World
                 </Button>
                 <Separator variant="dotted" />
 
