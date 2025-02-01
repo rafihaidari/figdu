@@ -1,7 +1,13 @@
 {
     "name": "create-figdu",
-    "version": "1.0.2",
-    "description": "A CLI tool to scaffold Figma plugins with React and Chakra UI.",
+    "version": "1.0.6",
+    "homepage": "https://figdu.com",
+    "bugs": "https://github.com/rafihaidari/figdu/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rafihaidari/figdu.git"
+    },
+    "description": "FigDU (Figma Developer Utility) is a zero-config toolkit for building Figma plugins with React, Chakra UI, and optimized tooling.",
     "bin": {
         "create-figdu": "./bin/cli.js"
     },
@@ -13,10 +19,15 @@
     "keywords": [
         "figma",
         "plugin",
-        "preact",
+        "react",
         "chakra-ui",
         "cli",
-        "scaffold"
+        "scaffold",
+        "figma-plugin",
+        "figma-plugin-development",
+        "figma-plugin-development-tooling",
+        "figma-plugin-development-toolkit",
+        "figma-plugin-framework"
     ],
     "author": "Rafi Haidari <hello.rafihaidari@gmail.com>",
     "license": "MIT",
@@ -38,7 +49,8 @@
     "files": [
         "bin/",
         "templates/",
-        "README.md"
+        "README.md",
+        "assets/FigDu-Logo.png"
     ],
     "engines": {
         "node": ">=16.0.0",

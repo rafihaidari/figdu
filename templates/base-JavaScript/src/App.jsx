@@ -1,6 +1,16 @@
-import { Button, Stack, Heading, Text, Highlight } from "@chakra-ui/react";
+import {
+  Button,
+  Stack,
+  Heading,
+  Text,
+  Highlight,
+  HStack,
+  Separator,
+} from "@chakra-ui/react";
 import { Provider } from "@/components/ui/provider";
 import { RiArrowRightLine } from "react-icons/ri";
+import { Avatar } from "./components/ui/avatar";
+import FigDuLogo from "./assets/images/FigDu-Logo.png";
 
 export function App() {
   // Handle button click to send a message to Figma to create a text node
@@ -20,7 +30,19 @@ export function App() {
 
   return (
     <Provider>
-      <Stack padding={"15px"}>
+      <Stack padding={"15px"} className="figdu-main-container" gap={"18px"}>
+        <HStack className="">
+          <Avatar
+            name="Dan Abramov"
+            src={FigDuLogo}
+            shape="rounded"
+            size="lg"
+          />
+          <Text fontSize="2xl" fontWeight="bold" color="#3B3E48">
+            FigDU
+          </Text>
+        </HStack>
+        <Separator variant="dotted" />
         <Heading size="3xl" letterSpacing="tight" textAlign={"center"}>
           <Highlight query="with speed" styles={{ color: "teal.600" }}>
             Build Accessible Figma Plugins with speed
@@ -46,6 +68,14 @@ export function App() {
         >
           Create Hello World <RiArrowRightLine />
         </Button>
+        <Separator variant="dotted" />
+
+        <Text fontSize="sm" color="fg.muted">
+          Visit:{" "}
+          <Text as="span" color="teal.600">
+            https://figdu.com
+          </Text>
+        </Text>
       </Stack>
     </Provider>
   );

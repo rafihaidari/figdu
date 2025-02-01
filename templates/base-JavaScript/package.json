@@ -23,6 +23,7 @@
         "prettier": "^3.4.2",
         "vite": "^6.0.5",
         "vite-plugin-singlefile": "^2.1.0",
-        "esbuild": "^0.20.2"
+        "esbuild": "^0.20.2",
+        "vite-plugin-static-copy": "^2.2.0"
     }
 }
