@@ -1,3 +1,7 @@
+<p>
+  <img src="assets/FigDu-Logo.png" alt="FigDU Logo" width="80px">
+</p>
+
 # FigDU - Figma Developer Utility
 
 FigDU (**Figma Developer Utility**) is your **all-in-one toolkit for crafting powerful Figma plugins** made by developers for developers. Build your Figma plugins with ease and stop worrying about configuration files and the odd peculiarities of building for Figma.
@@ -64,6 +68,7 @@ This will set up a new FigDU project in your current directory with all the nece
    ```
 
 4. **Open Figma**:
+
    - Go to the **Plugins** menu in Figma.
    - Select **Development** > **Import plugin from manifest**.
    - Choose the `manifest.json` file in your project directory.

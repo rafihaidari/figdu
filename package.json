@@ -1,8 +1,12 @@
 {
     "name": "create-figdu",
-    "version": "1.0.3",
-    "homepage": "https://react.dev/",
-    "bugs": "https://github.com/facebook/react/issues",
+    "version": "1.0.6",
+    "homepage": "https://figdu.com",
+    "bugs": "https://github.com/rafihaidari/figdu/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rafihaidari/figdu.git"
+    },
     "description": "FigDU (Figma Developer Utility) is a zero-config toolkit for building Figma plugins with React, Chakra UI, and optimized tooling.",
     "bin": {
         "create-figdu": "./bin/cli.js"
@@ -45,7 +49,8 @@
     "files": [
         "bin/",
         "templates/",
-        "README.md"
+        "README.md",
+        "assets/FigDu-Logo.png"
     ],
     "engines": {
         "node": ">=16.0.0",
