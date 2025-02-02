@@ -4,6 +4,9 @@
 
 # FigDU - Figma Developer Utility
 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frafihaidari%2Ffigdu.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Frafihaidari%2Ffigdu?ref=badge_small)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frafihaidari%2Ffigdu.svg?type=shield&issueType=security)](https://app.fossa.com/projects/git%2Bgithub.com%2Frafihaidari%2Ffigdu?ref=badge_shield&issueType=security)
+
 **FigDU** is your **all-in-one toolkit for creating powerful Figma plugins** made by developers for developers. Build your Figma plugins with ease and stop worrying about configuration files and the odd peculiarities of building for Figma.
 
 With FigDU, you can focus on creating amazing plugins for Figma while we handle the boilerplate, build process, and tooling. Whether you're a seasoned developer or just getting started, FigDU makes Figma plugin development a breeze.
@@ -117,6 +120,8 @@ We welcome contributions! If you'd like to improve FigDU, please drop an email: 
 FigDU is open-source and licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frafihaidari%2Ffigdu.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frafihaidari%2Ffigdu?ref=badge_large)
 
 ## Acknowledgments
 
